@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './VaibhavBoraganve_New.pdf';
 
 const Services = () => {
   // context
@@ -45,9 +45,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            emoji={Glasses}
+            heading={"Developer"}
+            detail={"Python, Django RestAPI, Flask, JavaScript, React, Html-css"}
           />
         </motion.div>
         {/* second card */}
@@ -57,9 +57,12 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            emoji={Humble}
+            heading={"Deployment"}
+            detail={
+              "Apache, Heroku, Gunicorn, Apache Httpd, Daphne, Aws"
+            }
+            color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
         {/* 3rd */}
@@ -69,12 +72,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
-            color="rgba(252, 166, 31, 0.45)"
+            emoji={HeartEmoji}
+            heading={"Design"}
+            detail={"Figma, Photoshop, Adobe xd"}
           />
         </motion.div>
         <div
